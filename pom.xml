@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wxt</groupId>
+  <artifactId>microservice-core</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <description>微服务核心服务</description>
+  
+  <modules>
+  	<!-- 微服务公共Bean -->
+    <module>microservice-bean</module>
+    <!-- 微服务公共工具类服务 -->
+    <module>microservice-common</module>
+    <!-- 微服务注册中心 -->
+    <module>microservice-eureka</module>
+    <!-- 微服务admin监控 -->
+    <module>microservice-admin</module>
+    <!-- 微服务配置中心 -->
+    <module>microservice-config</module>
+    <!-- 微服务安全认证 -->
+    <module>microservice-security</module>
+    <!-- 微服务链路监控 -->
+    <module>microservice-sleuth</module>
+    <!-- 微服务网关 -->
+    <module>microservice-zuul</module>
+  </modules>
+</project>
